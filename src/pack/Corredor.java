@@ -5,7 +5,7 @@ public class Corredor {
 	private int edad;
 	private char sexo;
 	private int numeroCorredor;
-	private int numerocategoria;
+	private int numeroCategoria;
 	
 	public int getEdad() {
 		return edad;
@@ -28,19 +28,19 @@ public class Corredor {
 		this.numeroCorredor = numeroCorredor;
 	}
 	
-	public int getNumerocategoria() {
-		return numerocategoria;
+	public int getNumeroCategoria() {
+		return numeroCategoria;
 	}
-	public void setNumerocategoria(int numerocategoria) {
-		this.numerocategoria = numerocategoria;
+	public void setNumeroCategoria(int numeroCategoria) {
+		this.numeroCategoria = numeroCategoria;
 	}
 	
-	public Corredor(int edad, char sexo, int numeroCorredor, int numerocategoria) {
+	public Corredor(int edad, char sexo, int numeroCorredor, int numeroCategoria) {
 		super();
 		this.edad = edad;
 		this.sexo = sexo;
 		this.numeroCorredor = numeroCorredor;
-		this.numerocategoria = numerocategoria;
+		this.numeroCategoria = numeroCategoria;
 	}
 	
 }
