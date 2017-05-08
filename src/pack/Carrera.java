@@ -93,7 +93,7 @@ public class Carrera {
 			
 			for(int i = 0 ; i < this.resultados.size() ; i++) {
 				Corredor corredor = this.corredores.get(this.resultados.get(i) - 1);
-				this.categorias.get(corredor.getNumeroCategoria() - 1).agregarCorredor(corredor);
+				this.categorias.get(corredor.getNumeroCategoria()).agregarCorredor(corredor);
 			}
 			
 			for(int i = 0 ; i < categorias.size() ; i++) {
